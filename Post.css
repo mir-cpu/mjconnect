@@ -1,0 +1,32 @@
+.post{
+    width:100%;
+    margin-top: 15px;
+    margin-left:25%;
+    border-radius:10px;
+    background-color: #eff2f5;
+    box-shadow: 0,5px,7px,-7px rgba(0, 0, 0,0.75)
+}
+.post__image > img{
+    width:55%;
+}
+.post__avatar{
+    margin-right: 10px;
+}
+.post__top{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 15px;
+}
+.post__topinfo > h3{
+    font-size:medium;
+}
+.post__topinfo > p{
+    font-size: small;
+    color: gray;
+}
+.post__bottom > p{
+    font-size: medium;
+    color: black;
+    
+}
